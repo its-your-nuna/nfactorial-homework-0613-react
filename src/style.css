@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header{
+    padding: 10px;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: inline-flex;
+}
+svg{
+    position: relative;
+}
+input{
+    border: 1px solid rgb(0,0,0,0.5);
+    outline: none;
+    height: 30px;
+    border-radius: 30px;
+}
+img{
+    height: 500px;
+    width: 20%;
+    overflow: hidden;
+}
+.all{
+    display: inline;
+}
+p{
+    color: white;
+    font-size: 12px;
+    text-shadow: 0px 0px 1px black;
+}
+#text{
+    display: inline-flex;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    text-shadow: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    margin-left:-13%;
+    margin-top:5%
+}
+@media only screen and (max-width: 600px) {
+    .all{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    form{
+        justify-content: space-between;
+    }
+    p{
+        font-size: 0px;
+    }
+    input{
+        width:120px;
+        height: 30px;
+    }
+    #text{
+        margin-left: -60%;
+        margin-top: 20%;
+        /* margin-top: -20%;
+        margin-left: 15%; */
+
+    }
+    img{
+        height: 200px;
+        width: 100%;
+    }
+}
+/* @media only screen and (max-width: 450px) {
+    .all{
+        display: block;
+    }
+    p{
+        margin-top: -100%;
+        margin-left: 25%;
+
+    }
+} */
