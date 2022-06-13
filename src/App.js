@@ -1,7 +1,7 @@
 import './style.css'
 import {data} from './data.js'
 import { compareAsc, format } from 'date-fns'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const setDate=()=>{
   const dates=format(new Date(2014, 1, 11), 'dd.MM.yyyy')
